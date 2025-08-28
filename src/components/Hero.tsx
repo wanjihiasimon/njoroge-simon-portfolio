@@ -77,10 +77,15 @@ const Hero = () => {
               LinkedIn
             </div>
             
-            <div className="flex items-center gap-2 hover:text-primary transition-colors cursor-pointer">
+            <a 
+              href="https://github.com/simonnjoroge" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 hover:text-primary transition-colors cursor-pointer"
+            >
               <Github className="w-4 h-4" />
               GitHub
-            </div>
+            </a>
           </div>
         </div>
       </div>
