@@ -12,6 +12,7 @@ import {
   Users,
   Building2
 } from "lucide-react";
+import CVGenerator from "./CVGenerator";
 
 const Contact = () => {
   const contactInfo = [
@@ -83,6 +84,9 @@ const Contact = () => {
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
             Ready to contribute to your cybersecurity initiatives and IT infrastructure projects
           </p>
+          <div className="mt-8">
+            <CVGenerator />
+          </div>
         </div>
 
         <div className="max-w-4xl mx-auto">
