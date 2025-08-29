@@ -115,19 +115,17 @@ const CVDocument = () => (
     <Page size="A4" style={styles.page}>
       {/* Header */}
       <View style={styles.header}>
-        <Text style={styles.name}>Njoroge Simon</Text>
-        <Text style={styles.title}>Full Stack Developer & Software Engineer</Text>
+        <Text style={styles.name}>Simon Njoroge</Text>
+        <Text style={styles.title}>ICT Audit Associate & Cybersecurity Professional</Text>
         <View style={styles.contactInfo}>
-          <Text>+254 706 374 393</Text>
+          <Text>+254745200815</Text>
           <Text>•</Text>
-          <Text>simonnjoroge@gmail.com</Text>
+          <Text>simon24njoroge@gmail.com</Text>
           <Text>•</Text>
-          <Text>Nairobi, Kenya</Text>
+          <Text>Po Box 51956, Nairobi, Kenya</Text>
         </View>
         <View style={styles.contactInfo}>
-          <Text>linkedin.com/in/njoroge-simon</Text>
-          <Text>•</Text>
-          <Text>github.com/njoroge-simon</Text>
+          <Text>github.com/simonnjoroge</Text>
         </View>
       </View>
 
@@ -136,32 +134,25 @@ const CVDocument = () => (
         <Text style={styles.sectionTitle}>PROFESSIONAL EXPERIENCE</Text>
         
         <View style={styles.experienceItem}>
-          <Text style={styles.jobTitle}>Full Stack Developer</Text>
-          <Text style={styles.company}>Tech Solutions Ltd • Nairobi, Kenya</Text>
-          <Text style={styles.period}>Jan 2023 - Present</Text>
-          <Text style={styles.achievement}>• Developed and maintained 5+ web applications using React, Node.js, and MongoDB</Text>
-          <Text style={styles.achievement}>• Implemented CI/CD pipelines reducing deployment time by 60%</Text>
-          <Text style={styles.achievement}>• Led a team of 3 developers on multiple client projects</Text>
-          <Text style={styles.achievement}>• Optimized database queries improving application performance by 40%</Text>
+          <Text style={styles.jobTitle}>ICT Audit Associate</Text>
+          <Text style={styles.company}>Ndakala Advisory LLP • Nairobi, Kenya</Text>
+          <Text style={styles.period}>Mar 2025 - Present</Text>
+          <Text style={styles.achievement}>• Planning and executing end-to-end IT audits for clients across multiple industries</Text>
+          <Text style={styles.achievement}>• Assessing IT general controls (ITGCs), application controls, and cybersecurity posture</Text>
+          <Text style={styles.achievement}>• Evaluating system configurations, access controls, and network security</Text>
+          <Text style={styles.achievement}>• Preparing detailed audit reports and presenting actionable recommendations</Text>
+          <Text style={styles.achievement}>• Supporting integrated audits with financial teams</Text>
         </View>
 
         <View style={styles.experienceItem}>
-          <Text style={styles.jobTitle}>Software Engineer</Text>
-          <Text style={styles.company}>Innovation Hub • Remote</Text>
-          <Text style={styles.period}>Jun 2021 - Dec 2022</Text>
-          <Text style={styles.achievement}>• Built responsive web applications using React and TypeScript</Text>
-          <Text style={styles.achievement}>• Integrated third-party APIs and payment gateways</Text>
-          <Text style={styles.achievement}>• Collaborated with design teams to implement pixel-perfect UIs</Text>
-          <Text style={styles.achievement}>• Mentored junior developers and conducted code reviews</Text>
-        </View>
-
-        <View style={styles.experienceItem}>
-          <Text style={styles.jobTitle}>Junior Developer</Text>
-          <Text style={styles.company}>StartupCo • Nairobi, Kenya</Text>
-          <Text style={styles.period}>Jan 2020 - May 2021</Text>
-          <Text style={styles.achievement}>• Developed mobile-first web applications using modern frameworks</Text>
-          <Text style={styles.achievement}>• Participated in agile development processes and sprint planning</Text>
-          <Text style={styles.achievement}>• Implemented automated testing reducing bugs by 30%</Text>
+          <Text style={styles.jobTitle}>Banking System Operations Intern</Text>
+          <Text style={styles.company}>KCB BANK KENYA LTD • Nairobi, Kenya</Text>
+          <Text style={styles.period}>Sep 2024 - Nov 2024</Text>
+          <Text style={styles.achievement}>• Supported ETL processes and gained experience with T24 banking system</Text>
+          <Text style={styles.achievement}>• Collaborated in PL/SQL scripting to optimize database operations</Text>
+          <Text style={styles.achievement}>• Configured and monitored automated workflows using UiPath Orchestrator</Text>
+          <Text style={styles.achievement}>• Resolved system issues to minimize downtime and improve efficiency</Text>
+          <Text style={styles.achievement}>• Gained proficiency in Active Directory, ITSM, and Microsoft Exchange</Text>
         </View>
       </View>
 
@@ -169,18 +160,18 @@ const CVDocument = () => (
       <View style={styles.section}>
         <Text style={styles.sectionTitle}>TECHNICAL SKILLS</Text>
         <View style={styles.skillsContainer}>
-          <Text style={styles.skill}>JavaScript</Text>
-          <Text style={styles.skill}>TypeScript</Text>
-          <Text style={styles.skill}>React</Text>
-          <Text style={styles.skill}>Node.js</Text>
+          <Text style={styles.skill}>Cybersecurity</Text>
+          <Text style={styles.skill}>IT Audit</Text>
           <Text style={styles.skill}>Python</Text>
-          <Text style={styles.skill}>MongoDB</Text>
-          <Text style={styles.skill}>PostgreSQL</Text>
-          <Text style={styles.skill}>AWS</Text>
-          <Text style={styles.skill}>Docker</Text>
-          <Text style={styles.skill}>Git</Text>
-          <Text style={styles.skill}>REST APIs</Text>
-          <Text style={styles.skill}>GraphQL</Text>
+          <Text style={styles.skill}>Java</Text>
+          <Text style={styles.skill}>PL/SQL</Text>
+          <Text style={styles.skill}>Linux Administration</Text>
+          <Text style={styles.skill}>Network Security</Text>
+          <Text style={styles.skill}>T24 Banking System</Text>
+          <Text style={styles.skill}>UiPath</Text>
+          <Text style={styles.skill}>Active Directory</Text>
+          <Text style={styles.skill}>VMware</Text>
+          <Text style={styles.skill}>SQL</Text>
         </View>
       </View>
 
@@ -189,13 +180,28 @@ const CVDocument = () => (
         <Text style={styles.sectionTitle}>EDUCATION</Text>
         
         <View style={styles.educationItem}>
-          <Text style={styles.degree}>Bachelor of Science in Computer Science</Text>
-          <Text style={styles.institution}>University of Nairobi • 2016 - 2020</Text>
+          <Text style={styles.degree}>BSC in Business Information Technology</Text>
+          <Text style={styles.institution}>Dedan Kimathi University of Technology • Second Class - Upper Division</Text>
         </View>
 
         <View style={styles.educationItem}>
-          <Text style={styles.degree}>Certified AWS Solutions Architect</Text>
-          <Text style={styles.institution}>Amazon Web Services • 2022</Text>
+          <Text style={styles.degree}>Cisco Networking Academy – Ethical Hacker</Text>
+          <Text style={styles.institution}>Self-Paced Program • May 2025 - Ongoing</Text>
+        </View>
+      </View>
+
+      {/* Certifications Section */}
+      <View style={styles.section}>
+        <Text style={styles.sectionTitle}>PROFESSIONAL CERTIFICATIONS</Text>
+        <View style={styles.skillsContainer}>
+          <Text style={styles.skill}>CCNAv7: Computer Networks</Text>
+          <Text style={styles.skill}>Computer Hardware</Text>
+          <Text style={styles.skill}>Endpoint Security</Text>
+          <Text style={styles.skill}>Linux Essentials</Text>
+          <Text style={styles.skill}>Introduction to Cybersecurity</Text>
+          <Text style={styles.skill}>Python Essentials</Text>
+          <Text style={styles.skill}>Operating System Basics</Text>
+          <Text style={styles.skill}>IBM Software Development</Text>
         </View>
       </View>
 
@@ -204,34 +210,32 @@ const CVDocument = () => (
         <Text style={styles.sectionTitle}>KEY PROJECTS</Text>
         
         <View style={styles.projectItem}>
-          <Text style={styles.projectTitle}>E-Commerce Platform</Text>
-          <Text style={styles.projectDescription}>Full-stack e-commerce solution with React, Node.js, and Stripe integration</Text>
-          <View style={styles.skillsContainer}>
-            <Text style={styles.skill}>React</Text>
-            <Text style={styles.skill}>Node.js</Text>
-            <Text style={styles.skill}>MongoDB</Text>
-            <Text style={styles.skill}>Stripe</Text>
-          </View>
-        </View>
-
-        <View style={styles.projectItem}>
-          <Text style={styles.projectTitle}>Task Management App</Text>
-          <Text style={styles.projectDescription}>Collaborative task management with real-time updates and team features</Text>
-          <View style={styles.skillsContainer}>
-            <Text style={styles.skill}>TypeScript</Text>
-            <Text style={styles.skill}>React</Text>
-            <Text style={styles.skill}>Socket.io</Text>
-            <Text style={styles.skill}>PostgreSQL</Text>
-          </View>
-        </View>
-
-        <View style={styles.projectItem}>
-          <Text style={styles.projectTitle}>Portfolio Website</Text>
-          <Text style={styles.projectDescription}>Responsive portfolio showcasing projects and professional experience</Text>
+          <Text style={styles.projectTitle}>Cybersecurity Portfolio</Text>
+          <Text style={styles.projectDescription}>Professional portfolio showcasing cybersecurity expertise and IT audit experience</Text>
           <View style={styles.skillsContainer}>
             <Text style={styles.skill}>React</Text>
             <Text style={styles.skill}>TypeScript</Text>
             <Text style={styles.skill}>Tailwind CSS</Text>
+          </View>
+        </View>
+
+        <View style={styles.projectItem}>
+          <Text style={styles.projectTitle}>Network Security Scanner</Text>
+          <Text style={styles.projectDescription}>Python-based network vulnerability scanner with automated reporting</Text>
+          <View style={styles.skillsContainer}>
+            <Text style={styles.skill}>Python</Text>
+            <Text style={styles.skill}>Nmap</Text>
+            <Text style={styles.skill}>Flask</Text>
+          </View>
+        </View>
+
+        <View style={styles.projectItem}>
+          <Text style={styles.projectTitle}>IT Audit Framework</Text>
+          <Text style={styles.projectDescription}>Comprehensive framework for conducting IT audits and compliance assessments</Text>
+          <View style={styles.skillsContainer}>
+            <Text style={styles.skill}>Python</Text>
+            <Text style={styles.skill}>SQL</Text>
+            <Text style={styles.skill}>Django</Text>
           </View>
         </View>
       </View>
@@ -245,7 +249,7 @@ const CVGenerator = () => {
     <div className="flex justify-center">
       <PDFDownloadLink
         document={<CVDocument />}
-        fileName="Njoroge_Simon_CV.pdf"
+        fileName="Simon_Njoroge_CV.pdf"
       >
         {({ blob, url, loading, error }) => (
           <Button
